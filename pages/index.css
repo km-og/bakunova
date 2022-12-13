@@ -11,6 +11,11 @@
 @import url(../blocks/link/link.css);
 
 @import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/_opened/menu_opened.css);
+@import url(../blocks/menu/__close-button/menu__close-button.css);
+@import url(../blocks/menu/__links/menu__links.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link/menu__link.css);
 
 @import url(../blocks/title/__img/title__img.css);
 @import url(../blocks/title/__overlay/title__overlay.css);
@@ -31,3 +36,12 @@
 @import url(../blocks/description/__subheading/description__subheading.css);
 
 @import url(../blocks/awards/awards.css);
+@import url(../blocks/awards/__title/awards__title.css);
+@import url(../blocks/awards/__carousel/awards__carousel.css);
+@import url(../blocks/awards/__gallery/awards__gallery.css);
+@import url(../blocks/awards/__list/awards__list.css);
+@import url(../blocks/awards/__item/awards__item.css);
+@import url(../blocks/awards/__img/awards__img.css);
+@import url(../blocks/awards/__arrow/awards__arrow.css);
+@import url(../blocks/awards/__button-prev/awards__button-prev.css);
+@import url(../blocks/awards/__button-next/awards__button-next.css);

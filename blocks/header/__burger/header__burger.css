@@ -2,7 +2,6 @@
   width: 32px;
   height: 5px;
   background-color: #222222;
-  /* background-color: #ffffff; */
   margin-bottom: 8px;
   align-items: center;
   justify-content: center;
@@ -23,7 +22,7 @@
   }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1630px) {
   .header__burger {
     background-color: #ffffff;
   }

@@ -4,29 +4,26 @@
   font-weight: 300;
   line-height: 1.4;
   justify-self: start;
-  width: 800px;
-  align-self: end;
+  max-width: 850px;
+  width: 100%;
+  align-self: center;
   margin: 0;
 }
 @media screen and (max-width: 1279px) {
   .description__quote {
-    width: 400px;
+    /* min-width: 400px; */
+    max-width: 550px;
     font-size: 37px;
-    align-self: center;
   }
 }
 @media screen and (max-width: 1023px) {
   .description__quote {
-    width: 300px;
+    min-width: 300px;
     font-size: 30px;
   }
 }
 @media screen and (max-width: 767px) {
   .description__quote {
-    align-self: center;
-    justify-self: start;
     min-width: 300px;
-    width: 100%;
-    max-width: 600px;
   }
 }

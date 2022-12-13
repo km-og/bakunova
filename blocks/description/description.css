@@ -16,7 +16,7 @@
 @media screen and (max-width: 1279px) {
   .description {
     margin: 758px auto 0;
-    max-width: 1000px;
+    /* max-width: 1000px; */
   }
 }
 
@@ -32,7 +32,7 @@
     max-width: 650px;
     min-width: 300px;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 400px 100px 180px;
+    grid-template-rows: 100px 400px 90px 150px;
     grid-template-areas:
       "title"
       "photo"
@@ -41,5 +41,17 @@
     padding: 10px;
     justify-items: center;
     row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .description {
+    grid-template-rows: 100px 400px 130px 150px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .description {
+    grid-template-rows: 100px 400px 200px 150px;
   }
 }

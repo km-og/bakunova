@@ -1,0 +1,23 @@
+.awards__title {
+  margin: 0 auto;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1.2;
+  padding: 80px 0 50px;
+  max-width: 90%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .awards__title {
+    max-width: 757px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .awards__title {
+    font-size: 40px;
+    padding: 10px;
+    max-width: 650px;
+  }
+}
