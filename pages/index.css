@@ -45,3 +45,5 @@
 @import url(../blocks/awards/__arrow/awards__arrow.css);
 @import url(../blocks/awards/__button-prev/awards__button-prev.css);
 @import url(../blocks/awards/__button-next/awards__button-next.css);
+
+@import url(../blocks/project/project.css);
