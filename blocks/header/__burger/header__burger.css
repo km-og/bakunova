@@ -1,8 +1,8 @@
 .header__burger {
   width: 32px;
   height: 5px;
-  /* background-color: #222222; */
-  background-color: #ffffff;
+  background-color: #222222;
+  /* background-color: #ffffff; */
   margin-bottom: 8px;
   align-items: center;
   justify-content: center;
@@ -20,5 +20,11 @@
     height: 3px;
     margin-bottom: 5px;
     background-color: #222222;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .header__burger {
+    background-color: #ffffff;
   }
 }
