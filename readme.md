@@ -1,4 +1,4 @@
 Ссылка на сайт:
-https://km-og.github.io/AI-interiors/
+https://km-og.github.io/bakunova/
 
 Данный проект сделан на заказ с нуля. Весртка адаптивная для всех устройств.
