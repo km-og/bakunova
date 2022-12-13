@@ -1,11 +1,20 @@
 .awards__button-next {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
   border: none;
   margin: 0;
-  padding: 0;
+  padding: 2px;
   width: 50px;
   position: absolute;
   top: 50%;
   right: 0;
   transform: translate(0%, -50%);
+  border-radius: 20%;
+  padding: 15px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .awards__button-next {
+    width: 15px;
+    height: 15px;
+  }
 }

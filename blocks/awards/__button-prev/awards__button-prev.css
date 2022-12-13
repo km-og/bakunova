@@ -1,5 +1,5 @@
 .awards__button-prev {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
   border: none;
   margin: 0;
   padding: 0;
@@ -8,4 +8,13 @@
   top: 50%;
   left: 0;
   transform: translate(0%, -50%);
+  border-radius: 20%;
+  padding: 15px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .awards__button-prev {
+    width: 15px;
+    height: 15px;
+  }
 }

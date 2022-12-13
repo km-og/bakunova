@@ -47,9 +47,9 @@ menu.addEventListener("click", (evt) => {
 
 // ДИПЛОМЫ И НАГРАДЫ
 
-const widthImg = 375;
-const count = 3;
+const count = 1;
 const awardsCarousel = document.querySelector(".awards__carousel");
+const widthImg = awardsCarousel.querySelector(".awards__img").width;
 const awardsList = awardsCarousel.querySelector(".awards__list");
 const awardsItem = awardsCarousel.querySelectorAll(".awards__item");
 
