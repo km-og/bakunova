@@ -6,6 +6,8 @@
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  /* background-color: #ffffff;
+  color: #191410; */
   background-color: #191410;
   color: #ffffff;
 }
