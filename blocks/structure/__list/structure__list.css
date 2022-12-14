@@ -1,0 +1,16 @@
+.structure__list {
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+  padding: 0 0 50px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .structure__list {
+    flex-direction: column;
+    /* max-height: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+  }
+}

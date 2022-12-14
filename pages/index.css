@@ -57,3 +57,11 @@
 @import url(../blocks/services/__title/services__title.css);
 @import url(../blocks/services/__content/services__content.css);
 @import url(../blocks/services/__quote/services__quote.css);
+
+@import url(../blocks/structure/structure.css);
+@import url(../blocks/structure/__title/structure__title.css);
+@import url(../blocks/structure/__list/structure__list.css);
+/* может свернуть на маленьких экранах? */
+@import url(../blocks/structure/__text/structure__text.css);
+@import url(../blocks/structure/__span/structure__span.css);
+@import url(../blocks/structure/__author/structure__author.css);
