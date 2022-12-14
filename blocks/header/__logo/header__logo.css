@@ -11,7 +11,8 @@
 } */
 
 .header__logo {
-  background-image: url(../../../images/logo.svg);
+  /* background-image: url(../../../images/logo.svg); */
+  background-image: url(../../../images/logo-white.svg);
   background-size: 60px 60px;
   background-repeat: no-repeat;
   width: 60px;
@@ -27,8 +28,8 @@
   }
 }
 
-@media screen and (min-width: 1630px) {
+/* @media screen and (min-width: 1630px) {
   .header__logo {
     background-image: url(../../../images/logo-white.svg);
   }
-}
+} */

@@ -1,29 +1,30 @@
 .header__burger {
   width: 32px;
   height: 5px;
-  background-color: #222222;
+  /* background-color: #222222; */
+  background-color: #ffffff;
   margin-bottom: 8px;
   align-items: center;
   justify-content: center;
 }
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
   .header__burger {
     background-color: #222222;
   }
-}
+} */
 
 @media screen and (max-width: 767px) {
   .header__burger {
     width: 25px;
     height: 3px;
     margin-bottom: 5px;
-    background-color: #222222;
+    /* background-color: #222222; */
   }
 }
 
-@media screen and (min-width: 1630px) {
+/* @media screen and (min-width: 1630px) {
   .header__burger {
     background-color: #ffffff;
   }
-}
+} */
