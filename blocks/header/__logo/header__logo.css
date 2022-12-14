@@ -1,4 +1,4 @@
-.header__logo {
+/* .header__logo {
   width: 60px;
   z-index: 10;
   color: #fff;
@@ -7,5 +7,28 @@
 @media screen and (max-width: 767px) {
   .header__logo {
     width: 40px;
+  }
+} */
+
+.header__logo {
+  background-image: url(../../../images/logo.svg);
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+  }
+}
+
+@media screen and (min-width: 1630px) {
+  .header__logo {
+    background-image: url(../../../images/logo-white.svg);
   }
 }

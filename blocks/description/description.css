@@ -1,8 +1,8 @@
 .description {
   display: grid;
-  grid-template-columns: 600px calc(90%-600px);
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: 600px calc(90%-600px); */
   grid-template-rows: 180px 300px 300px;
-  /* grid-template-rows: 1fr 2fr 4fr; */
   grid-template-areas:
     "title title"
     "photo quote"
@@ -10,22 +10,23 @@
   max-width: 90%;
   margin: 980px auto 0;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 40px;
   row-gap: 30px;
 }
+
 @media screen and (max-width: 1279px) {
   .description {
     margin: 758px auto 0;
-    /* max-width: 1000px; */
   }
 }
 
 @media screen and (max-width: 1023px) {
   .description {
     margin: 748px auto 0;
-    max-width: 757px;
+    min-width: 757px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .description {
     margin: 748px auto 0;

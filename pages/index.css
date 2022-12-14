@@ -31,7 +31,6 @@
 @import url(../blocks/description/__position/description__position.css);
 @import url(../blocks/description/__education/description__education.css);
 @import url(../blocks/description/__heading/description__heading.css);
-@import url(../blocks/description/__link/description__link.css);
 @import url(../blocks/description/__icon/description__icon.css);
 @import url(../blocks/description/__subheading/description__subheading.css);
 
@@ -47,3 +46,10 @@
 @import url(../blocks/awards/__button-next/awards__button-next.css);
 
 @import url(../blocks/project/project.css);
+@import url(../blocks/project/__title/project__title.css);
+@import url(../blocks/project/__container/project__container.css);
+@import url(../blocks/project/__card/project__card.css);
+@import url(../blocks/project/__card-content/project__card-content.css);
+@import url(../blocks/project/__card-heading/project__card-heading.css);
+@import url(../blocks/project/__card-location/project__card-location.css);
+@import url(../blocks/project/__card-description/project__card-description.css);
