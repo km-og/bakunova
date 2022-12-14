@@ -1,0 +1,28 @@
+.rates__btn {
+  border-radius: 2%;
+  border: none;
+  margin: 40px auto 0;
+  display: block;
+  padding: 25px 50px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 1279px) {
+  .rates__btn {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .rates__btn {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rates__btn {
+  }
+}

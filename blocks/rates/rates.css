@@ -1,0 +1,25 @@
+.rates {
+  display: flex;
+  width: 100%;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  .rates {
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* row-gap: 20px; */
+    /* margin: 0 auto; */
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .rates {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rates {
+  }
+}

@@ -1,0 +1,21 @@
+.rates__content {
+  list-style: none;
+  padding: 0;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .rates__content {
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .rates__content {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rates__content {
+  }
+}
