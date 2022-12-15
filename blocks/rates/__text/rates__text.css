@@ -5,3 +5,9 @@
   margin: 0;
   padding: 0 0 10px;
 }
+
+@media screen and (max-width: 767px) {
+  .rates__text {
+    font-size: 15px;
+  }
+}

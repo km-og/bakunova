@@ -29,12 +29,12 @@
 
 @media screen and (max-width: 767px) {
   .description {
-    margin: 845px 10px 10px;
-    padding: 30px;
+    margin: 845px auto 30px;
+    padding: 10px;
     max-width: 650px;
     min-width: 300px;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 400px 90px 150px;
+    grid-template-rows: 100px 400px 130px 150px;
     grid-template-areas:
       "title"
       "photo"
@@ -47,12 +47,12 @@
 
 @media screen and (max-width: 568px) {
   .description {
-    grid-template-rows: 100px 400px 130px 150px;
+    grid-template-rows: 100px 400px 150px 150px;
   }
 }
 
 @media screen and (max-width: 374px) {
   .description {
-    grid-template-rows: 100px 400px 200px 150px;
+    grid-template-rows: 100px 400px 240px 160px;
   }
 }
