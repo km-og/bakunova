@@ -70,7 +70,10 @@
 @import url(../blocks/rates/__card/rates__card.css);
 @import url(../blocks/rates/__title/rates__title.css);
 @import url(../blocks/rates/__price/rates__price.css);
+@import url(../blocks/rates/__before/rates__before.css);
 @import url(../blocks/rates/__content/rates__content.css);
 @import url(../blocks/rates/__text/rates__text.css);
 @import url(../blocks/rates/__period/rates__period.css);
 @import url(../blocks/rates/__btn/rates__btn.css);
+@import url(../blocks/rates/__additional/rates__additional.css);
+@import url(../blocks/rates/__additional-text/rates__additional-text.css);

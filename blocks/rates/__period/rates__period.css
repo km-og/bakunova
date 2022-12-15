@@ -7,17 +7,8 @@
   padding: 40px 0 0;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1400px) {
   .rates__period {
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .rates__period {
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .rates__period {
+    text-align: center;
   }
 }

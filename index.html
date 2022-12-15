@@ -15,7 +15,7 @@
   <div class="page">
 
     <header class="header">
-      <div class="header__logo"></div>
+      <a href="#" class="header__logo link"></a>
       <button type="menu" aria-label="открыть меню" class="header__button button">
         <div class="header__burger"></div>
         <div class="header__burger"></div>
@@ -67,17 +67,6 @@
               <p class="description__subheading">Факультет дизайна архитектурной среды</p>
             </div>
           </div>
-          <!-- <div class="description__education">
-            <a href="https://disk.yandex.ru/d/kqCnmXyxuqQFwg" target="_blank" class="description__link link">
-              <img src="./images/description-icon-download.png" alt="скачать диплом" class="description__icon">
-            </a>
-            <div>
-              <a href="https://disk.yandex.ru/d/kqCnmXyxuqQFwg" target="_blank" class="description__link link">
-                <h4 class="description__heading">Дипломы и награды</h4>
-              </a>
-              <p class="description__subheading">С различных конкурсов</p>
-            </div>
-          </div> -->
         </div>
       </section>
 
@@ -90,50 +79,52 @@
           <div class="awards__gallery">
             <ul class="awards__list">
               <li class="awards__item">
-                <img src="./images/awards/1certificate.jpg"
+                <img src="./images/awards/1pinwin21-22.jpg"
                   alt="Свидетельство о членстве в Сибирской ассоциации дизайнеров и архитекторов" class="awards__img">
               </li>
               <li class="awards__item">
-                <img src="./images/awards/2forum2018.jpg" alt="сетификат повышения квалификации" class="awards__img">
-              </li>
-              <li class="awards__item">
-                <img src="./images/awards/3timePad2018.jpg" alt="диплом участника TimePad" class="awards__img">
-              </li>
-              <li class="awards__item">
-                <img src="./images/awards/4dembowski2018.jpg" alt="сертификат участника Сибирского форума"
+                <img src="./images/awards/2perspective2022.jpg" alt="сетификат повышения квалификации"
                   class="awards__img">
               </li>
               <li class="awards__item">
-                <img src="./images/awards/5elle2018.jpg" alt="сетификат повышения квалификации" class="awards__img">
+                <img src="./images/awards/3certificate.jpg" alt="диплом участника TimePad" class="awards__img">
               </li>
               <li class="awards__item">
-                <img src="./images/awards/6timePad19.jpg" alt="диплом участника TimePad" class="awards__img">
-              </li>
-              <li class="awards__item">
-                <img src="./images/awards/7pinwin19-20.jpg" alt="диплом участника PinWin 2020 года" class="awards__img">
-              </li>
-              <li class="awards__item">
-                <img src="./images/awards/8not-a-stencil.jpg" alt="сертификат участника конкурса Не трафарет"
+                <img src="./images/awards/4perspective2021.jpg" alt="сертификат участника Сибирского форума"
                   class="awards__img">
               </li>
               <li class="awards__item">
-                <img src="./images/awards/9certificate2020.png" alt="сертификат участника антиконференции"
+                <img src="./images/awards/5perspective2020.jpg" alt="сетификат повышения квалификации"
                   class="awards__img">
               </li>
               <li class="awards__item">
-                <img src="./images/awards/10perspective2020.jpg" alt="диплом участника дизайн-перспективы 2020 года"
+                <img src="./images/awards/6pinwin19-20.jpg" alt="диплом участника TimePad" class="awards__img">
+              </li>
+              <li class="awards__item">
+                <img src="./images/awards/7certificate2020.png" alt="диплом участника PinWin 2020 года"
                   class="awards__img">
               </li>
               <li class="awards__item">
-                <img src="./images/awards/11perspective2021.jpg" alt="диплом участника дизайн-перспективы 2021 года"
+                <img src="./images/awards/8forum2018.jpg" alt="сертификат участника конкурса Не трафарет"
                   class="awards__img">
               </li>
               <li class="awards__item">
-                <img src="./images/awards/12pinwin21-22.jpg" alt="диплом участника PinWin 2022 года"
+                <img src="./images/awards/9dembowski2018.jpg" alt="сертификат участника антиконференции"
                   class="awards__img">
               </li>
               <li class="awards__item">
-                <img src="./images/awards/13perspective2022.jpg" alt="диплом участника дизайн-перспективы 2022 года"
+                <img src="./images/awards/10elle2018.jpg" alt="диплом участника дизайн-перспективы 2020 года"
+                  class="awards__img">
+              </li>
+              <li class="awards__item">
+                <img src="./images/awards/11timePad2018.jpg" alt="диплом участника дизайн-перспективы 2021 года"
+                  class="awards__img">
+              </li>
+              <li class="awards__item">
+                <img src="./images/awards/12timePad19.jpg" alt="диплом участника PinWin 2022 года" class="awards__img">
+              </li>
+              <li class="awards__item">
+                <img src="./images/awards/13not-a-stencil.jpg" alt="диплом участника дизайн-перспективы 2022 года"
                   class="awards__img">
               </li>
             </ul>
@@ -423,7 +414,7 @@
                   <p class="rates__text">5. План расстановки мебели с размерами</p>
                 </li>
                 <li>
-                  <p class="rates__text">6. Коллажи по помещения</p>
+                  <p class="rates__text">6. Коллажи по помещениям</p>
                 </li>
               </ul>
             </div>
@@ -436,8 +427,11 @@
             <div class="rates__box">
               <h4 class="rates__title">База:</h4>
               <p class="rates__price">1500 ₽/м&#178;</p>
+              <p class="rates__before">Тариф "Концепт"</p>
+              <p class="rates__before">+</p>
+
               <ul class="rates__content">
-                <li>
+                <!-- <li>
                   <p class="rates__text">1. Обмерный чертеж</p>
                 </li>
                 <li>
@@ -450,10 +444,10 @@
                   <p class="rates__text">4. Экспликация после перепланировки</p>
                 </li>
                 <li>
-                  <p class="rates__text">5. План расстановки мебели</p>
-                </li>
+                  <p class="rates__text">5. План расстановки мебели с размерами</p>
+                </li> -->
                 <li>
-                  <p class="rates__text">6. План расстановки мебели с размерами</p>
+                  <p class="rates__text">6. План расстановки мебели </p>
                 </li>
                 <li>
                   <p class="rates__text">7. План расположения розеток</p>
@@ -490,8 +484,10 @@
             <div class="rates__box">
               <h4 class="rates__title">Реализация:</h4>
               <p class="rates__price">2000 ₽/м&#178;</p>
+              <p class="rates__before">Тариф "База"</p>
+              <p class="rates__before">+</p>
               <ul class="rates__content">
-                <li>
+                <!-- <li>
                   <p class="rates__text">1. Обмерный чертеж</p>
                 </li>
                 <li>
@@ -532,7 +528,7 @@
                 </li>
                 <li>
                   <p class="rates__text">14. Визуализации</p>
-                </li>
+                </li> -->
                 <li>
                   <p class="rates__text">15. Развертки по стенам с указанием и рассчетом отделочных материалов</p>
                 </li>
@@ -543,6 +539,33 @@
             </div>
             <div class="rates__box">
               <p class="rates__period">Срок - 2-4 месяца</p>
+              <button type="submit" class="rates__btn">Оставить заявку</button>
+            </div>
+          </div>
+          <div class="rates__card">
+            <div class="rates__box">
+              <h4 class="rates__title">Дополнительные услуги:</h4>
+
+              <ul class="rates__additional">
+                <li>
+                  <p class="rates__additional-text">Штучные чертежи по запросу</p>
+                  <p class="rates__before">1500 ₽</p>
+                </li>
+                <li>
+                  <p class="rates__additional-text">Консультация по планировке, по этапам работ</p>
+                  <p class="rates__before">3000 ₽/час</p>
+                </li>
+                <li>
+                  <p class="rates__additional-text">Авторский надзор (чтобы ваш проект максимально соответствовал
+                    визуализациям)</p>
+                  <p class="rates__before">15000 ₽/мес</p>
+
+                </li>
+
+              </ul>
+            </div>
+            <div class="rates__box">
+              <p class="rates__period">Срок - 2 месяца</p>
               <button type="submit" class="rates__btn">Оставить заявку</button>
             </div>
           </div>
