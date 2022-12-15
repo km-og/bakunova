@@ -77,3 +77,10 @@
 @import url(../blocks/rates/__btn/rates__btn.css);
 @import url(../blocks/rates/__additional/rates__additional.css);
 @import url(../blocks/rates/__additional-text/rates__additional-text.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__list/contacts__list.css);
+@import url(../blocks/footer/__heading/contacts__heading.css);
+@import url(../blocks/footer/__subheading/contacts__subheading.css);

@@ -1,7 +1,6 @@
 .description {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-columns: 600px calc(90%-600px); */
   grid-template-rows: 180px 300px 300px;
   grid-template-areas:
     "title title"
