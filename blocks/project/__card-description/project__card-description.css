@@ -1,11 +1,11 @@
 .project__card-description {
   margin: 0 auto;
-  padding-top: 20px;
+  padding: 20px 0;
   max-width: 500px;
   text-align: center;
   font-size: 20px;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.6;
 }
 
 @media screen and (max-width: 1279px) {

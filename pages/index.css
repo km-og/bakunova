@@ -2,6 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__button/header__button.css);
@@ -50,7 +51,6 @@
 @import url(../blocks/project/__card/project__card.css);
 @import url(../blocks/project/__card-content/project__card-content.css);
 @import url(../blocks/project/__card-heading/project__card-heading.css);
-@import url(../blocks/project/__card-location/project__card-location.css);
 @import url(../blocks/project/__card-description/project__card-description.css);
 
 @import url(../blocks/services/services.css);

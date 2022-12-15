@@ -7,7 +7,8 @@
     "photo quote"
     "photo text";
   max-width: 90%;
-  margin: 980px auto 0;
+  padding: 0;
+  margin: 1070px auto 0;
   align-items: center;
   column-gap: 40px;
   row-gap: 30px;
@@ -15,20 +16,21 @@
 
 @media screen and (max-width: 1279px) {
   .description {
-    margin: 758px auto 0;
+    margin: 850px auto 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .description {
-    margin: 748px auto 0;
+    margin: 840px auto 0;
     min-width: 757px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .description {
-    margin: 748px auto 0;
+    margin: 845px 10px 10px;
+    padding: 30px;
     max-width: 650px;
     min-width: 300px;
     grid-template-columns: 1fr;
@@ -38,7 +40,6 @@
       "photo"
       "quote"
       "text";
-    padding: 10px;
     justify-items: center;
     row-gap: 40px;
   }
