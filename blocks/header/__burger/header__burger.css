@@ -1,5 +1,5 @@
 .header__burger {
-  width: 32px;
+  width: 45px;
   height: 5px;
   background-color: #ffffff;
   margin-bottom: 8px;
@@ -8,7 +8,7 @@
 }
 @media screen and (max-width: 767px) {
   .header__burger {
-    width: 25px;
+    width: 30px;
     height: 3px;
     margin-bottom: 5px;
   }

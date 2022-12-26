@@ -1,6 +1,6 @@
 .description__text {
   grid-area: text;
   justify-self: start;
-  align-self: start;
+  align-self: end;
   margin: 0;
 }
