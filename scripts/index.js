@@ -50,9 +50,9 @@ menu.addEventListener("click", (evt) => {
 const count = 1;
 const awardsCarousel = document.querySelector(".awards__carousel");
 const widthImg = awardsCarousel.querySelector(".awards__img").width;
-const paddingImg = awardsCarousel.querySelector(".awards__img").padding;
-console.log(paddingImg);
-console.log(widthImg);
+// const paddingImg = awardsCarousel.querySelector(".awards__img").paddingLeft;
+// console.log(paddingImg);
+// console.log(widthImg);
 const awardsList = awardsCarousel.querySelector(".awards__list");
 const awardsItem = awardsCarousel.querySelectorAll(".awards__item");
 
@@ -63,7 +63,7 @@ const next = awardsCarousel.querySelector(".awards__button-next");
 
 prev.onclick = function () {
   // сдвиг влево
-  position += widthImg * count;
+  position += (widthImg + 25) * count;
   // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
   position = Math.min(position, 0);
   awardsList.style.marginLeft = position + "px";
@@ -71,7 +71,7 @@ prev.onclick = function () {
 
 next.onclick = function () {
   // сдвиг вправо
-  position -= widthImg * count;
+  position -= (widthImg + 25) * count;
   // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
   position = Math.max(position, -widthImg * (awardsItem.length - count));
   awardsList.style.marginLeft = position + "px";

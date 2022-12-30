@@ -1,12 +1,12 @@
 .awards__img {
   width: 350px;
   display: block;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 @media screen and (max-width: 767px) {
   .awards__img {
     width: 285px;
-    padding: 0;
+    /* padding: 0; */
   }
 }
