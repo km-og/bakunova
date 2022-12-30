@@ -1,5 +1,5 @@
 .services__content {
-  background-image: url(../../../images/9_other-photo/11.jpg);
+  background-image: url(../../../images/2_WOOD&STONE/004.jpg);
   background-position: center;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 767px) {
   .services__content {
-    background-size: 100% 500px;
+    background-size: auto 500px;
     height: 500px;
     flex-direction: row;
     align-items: end;

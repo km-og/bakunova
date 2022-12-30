@@ -9,6 +9,7 @@
   font-weight: 300;
   line-height: 1.4;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {
@@ -26,7 +27,9 @@
 @media screen and (max-width: 767px) {
   .services__quote {
     width: 100%;
+    max-width: 503px;
     height: 50%;
     font-size: 20px;
+    margin: 0 auto;
   }
 }

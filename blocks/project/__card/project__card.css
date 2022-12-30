@@ -1,6 +1,6 @@
 .project__card {
   background-position: center;
-  background-size: 100% 100%;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   width: 100%;
 }
@@ -15,6 +15,7 @@
 
 .project__card:nth-child(3) {
   background-image: url(../../../images/3_KERRANOVA_INSPIRATION/01.jpg);
+  background-size: auto 100%;
 }
 
 .project__card:nth-child(4) {

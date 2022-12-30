@@ -35,7 +35,6 @@
 @import url(../blocks/description/__icon/description__icon.css);
 @import url(../blocks/description/__subheading/description__subheading.css);
 
-@import url(../blocks/awards/awards.css);
 @import url(../blocks/awards/__title/awards__title.css);
 @import url(../blocks/awards/__carousel/awards__carousel.css);
 @import url(../blocks/awards/__gallery/awards__gallery.css);
@@ -81,6 +80,7 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
-@import url(../blocks/footer/__list/contacts__list.css);
-@import url(../blocks/footer/__heading/contacts__heading.css);
-@import url(../blocks/footer/__subheading/contacts__subheading.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__heading/footer__heading.css);
+@import url(../blocks/footer/__subheading/footer__subheading.css);
+@import url(../blocks/footer/__author/footer__author.css);
