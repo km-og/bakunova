@@ -50,9 +50,6 @@ menu.addEventListener("click", (evt) => {
 const count = 1;
 const awardsCarousel = document.querySelector(".awards__carousel");
 const widthImg = awardsCarousel.querySelector(".awards__img").width;
-// const paddingImg = awardsCarousel.querySelector(".awards__img").paddingLeft;
-// console.log(paddingImg);
-// console.log(widthImg);
 const awardsList = awardsCarousel.querySelector(".awards__list");
 const awardsItem = awardsCarousel.querySelectorAll(".awards__item");
 
