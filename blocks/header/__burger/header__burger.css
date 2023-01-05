@@ -5,6 +5,7 @@
   margin-bottom: 8px;
   align-items: center;
   justify-content: center;
+  z-index: 200;
 }
 @media screen and (max-width: 767px) {
   .header__burger {

@@ -4,7 +4,7 @@
   box-sizing: border-box;
   position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 200;
   padding: 10px 5% 0;
   display: flex;
   justify-content: space-between;

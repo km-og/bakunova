@@ -51,8 +51,8 @@
   }
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 385px) {
   .description {
-    grid-template-rows: 100px 400px 240px 160px;
+    grid-template-rows: 100px 420px 240px 160px;
   }
 }

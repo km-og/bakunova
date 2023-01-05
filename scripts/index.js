@@ -1,6 +1,8 @@
 const menu = document.querySelector(".menu");
 const buttonMenu = document.querySelector(".header__button");
-const closeButtonMenu = menu.querySelector(".menu__close-button");
+const menuBurger = document.querySelectorAll(".header__burger");
+
+// const closeButtonMenu = menu.querySelector(".menu__close-button");
 const menuLinks = menu.querySelectorAll(".menu__link");
 
 // закрыть по Esc
@@ -12,22 +14,16 @@ const closeByEsc = (evt) => {
   }
 };
 
-// открыть меню
-
-const openMenu = () => {
-  menu.classList.add("menu_opened");
-  document.addEventListener("keydown", closeByEsc);
-};
-
-buttonMenu.addEventListener("click", openMenu);
-
 // закрыть меню
 
 const closeMenu = () => {
   menu.classList.remove("menu_opened");
+  menuBurger.forEach((item) => {
+    item.classList.remove("header__burger_type_active");
+  });
   document.removeEventListener("keydown", closeByEsc);
+  buttonMenu.removeEventListener("click", closeMenu);
 };
-closeButtonMenu.addEventListener("click", closeMenu);
 
 // закрыть меню при клике на ссылку
 
@@ -45,8 +41,23 @@ menu.addEventListener("click", (evt) => {
   }
 });
 
+// открыть меню
+
+const openMenu = () => {
+  menu.classList.add("menu_opened");
+  menuBurger.forEach((item) => {
+    item.classList.add("header__burger_type_active");
+  });
+  document.addEventListener("keydown", closeByEsc);
+
+  buttonMenu.addEventListener("click", closeMenu);
+};
+
+buttonMenu.addEventListener("click", openMenu);
+
 // ДИПЛОМЫ И НАГРАДЫ
 
+// видимое количество изображений
 const count = 1;
 const awardsCarousel = document.querySelector(".awards__carousel");
 const widthImg = awardsCarousel.querySelector(".awards__img").width;
