@@ -1,23 +1,5 @@
 .awards__gallery {
-  width: 1179px;
   overflow: hidden;
   margin: 0 auto;
-}
-
-@media screen and (max-width: 1279px) {
-  .awards__gallery {
-    width: 923px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .awards__gallery {
-    width: 667px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .awards__gallery {
-    width: 290px;
-  }
+  width: 90%;
 }

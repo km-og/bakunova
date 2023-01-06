@@ -57,30 +57,22 @@ buttonMenu.addEventListener("click", openMenu);
 
 // ДИПЛОМЫ И НАГРАДЫ
 
-// видимое количество изображений
-const count = 1;
 const awardsCarousel = document.querySelector(".awards__carousel");
-const widthImg = awardsCarousel.querySelector(".awards__img").width;
-const awardsList = awardsCarousel.querySelector(".awards__list");
-const awardsItem = awardsCarousel.querySelectorAll(".awards__item");
+const ul = awardsCarousel.querySelector(".awards__list");
 
-let position = 0;
+const listItems = ul.children;
 
-const prev = awardsCarousel.querySelector(".awards__button-prev");
-const next = awardsCarousel.querySelector(".awards__button-next");
+const btnNext = awardsCarousel.querySelector(".awards__button-next");
+const btnPrev = awardsCarousel.querySelector(".awards__button-prev");
 
-prev.onclick = function () {
-  // сдвиг влево
-  position += (widthImg + 25) * count;
-  // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
-  position = Math.min(position, 0);
-  awardsList.style.marginLeft = position + "px";
+const scrollRidht = () => {
+  ul.append(listItems[0]);
 };
 
-next.onclick = function () {
-  // сдвиг вправо
-  position -= (widthImg + 25) * count;
-  // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
-  position = Math.max(position, -widthImg * (awardsItem.length - count));
-  awardsList.style.marginLeft = position + "px";
+const scrollLeft = () => {
+  ul.prepend(listItems[12]);
 };
+
+btnNext.addEventListener("click", scrollRidht);
+
+btnPrev.addEventListener("click", scrollLeft);
