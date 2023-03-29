@@ -1,0 +1,15 @@
+.description__subheading {
+  margin: 0;
+  padding-top: 7px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  max-width: 305px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .description__subheading {
+    font-size: 15px;
+  }
+}

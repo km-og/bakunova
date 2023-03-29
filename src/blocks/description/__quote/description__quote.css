@@ -1,0 +1,28 @@
+.description__quote {
+  grid-area: quote;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 1.4;
+  justify-self: start;
+  max-width: 850px;
+  width: 100%;
+  align-self: start;
+  margin: 0;
+}
+@media screen and (max-width: 1279px) {
+  .description__quote {
+    max-width: 550px;
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .description__quote {
+    min-width: 300px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .description__quote {
+    min-width: 300px;
+  }
+}

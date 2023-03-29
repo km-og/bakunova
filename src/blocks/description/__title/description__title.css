@@ -1,0 +1,17 @@
+.description__title {
+  grid-area: title;
+  margin: 0;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1.2;
+  align-self: end;
+  padding-bottom: 20px;
+  justify-self: start;
+}
+
+@media screen and (max-width: 767px) {
+  .description__title {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+}

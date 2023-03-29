@@ -1,0 +1,18 @@
+.footer__heading {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 20px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__heading {
+    margin: 0 0 10px;
+  }
+}

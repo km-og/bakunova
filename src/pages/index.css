@@ -1,0 +1,97 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__burger/_type/header__burger_type_active.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/link/link.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/_opened/menu_opened.css);
+/* @import url(../blocks/menu/__close-button/menu__close-button.css); */
+@import url(../blocks/menu/__links/menu__links.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link/menu__link.css);
+
+@import url(../blocks/title/__img/title__img.css);
+@import url(../blocks/title/__overlay/title__overlay.css);
+@import url(../blocks/title/__heading/title__heading.css);
+@import url(../blocks/title/__subheading/title__subheading.css);
+
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__photo/description__photo.css);
+@import url(../blocks/description/__quote/description__quote.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__name/description__name.css);
+@import url(../blocks/description/__position/description__position.css);
+@import url(../blocks/description/__education/description__education.css);
+@import url(../blocks/description/__heading/description__heading.css);
+@import url(../blocks/description/__icon/description__icon.css);
+@import url(../blocks/description/__subheading/description__subheading.css);
+
+@import url(../blocks/awards/__title/awards__title.css);
+@import url(../blocks/awards/__carousel/awards__carousel.css);
+@import url(../blocks/awards/__gallery/awards__gallery.css);
+@import url(../blocks/awards/__list/awards__list.css);
+@import url(../blocks/awards/__item/awards__item.css);
+@import url(../blocks/awards/__img/awards__img.css);
+@import url(../blocks/awards/__arrow/awards__arrow.css);
+@import url(../blocks/awards/__button-prev/awards__button-prev.css);
+@import url(../blocks/awards/__button-next/awards__button-next.css);
+
+@import url(../blocks/project/__title/project__title.css);
+@import url(../blocks/project/__container/project__container.css);
+@import url(../blocks/project/__card/project__card.css);
+@import url(../blocks/project/__card-content/project__card-content.css);
+@import url(../blocks/project/__card-heading/project__card-heading.css);
+@import url(../blocks/project/__card-description/project__card-description.css);
+
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/services/__content/services__content.css);
+@import url(../blocks/services/__quote/services__quote.css);
+
+@import url(../blocks/structure/structure.css);
+@import url(../blocks/structure/__title/structure__title.css);
+@import url(../blocks/structure/__list/structure__list.css);
+/* может свернуть на маленьких экранах? */
+@import url(../blocks/structure/__text/structure__text.css);
+@import url(../blocks/structure/__span/structure__span.css);
+@import url(../blocks/structure/__table/structure__table.css);
+
+@import url(../blocks/rates/rates.css);
+@import url(../blocks/rates/__card/rates__card.css);
+@import url(../blocks/rates/__title/rates__title.css);
+@import url(../blocks/rates/__price/rates__price.css);
+@import url(../blocks/rates/__additional-service/rates__additional-service.css);
+@import url(../blocks/rates/__content/rates__content.css);
+@import url(../blocks/rates/__content/_opened/rates__content_opened.css);
+@import url(../blocks/rates/__text/rates__text.css);
+@import url(../blocks/rates/__period/rates__period.css);
+@import url(../blocks/rates/__btn/rates__btn.css);
+@import url(../blocks/rates/__additional/rates__additional.css);
+@import url(../blocks/rates/__additional-text/rates__additional-text.css);
+
+@import url(../blocks/faq/faq.css);
+@import url(../blocks/faq/__title/faq__title.css);
+@import url(../blocks/faq/__string/faq__string.css);
+@import url(../blocks/faq/__sign/faq__sign.css);
+@import url(../blocks/faq/__line/faq__line.css);
+@import url(../blocks/faq/__question/faq__question.css);
+@import url(../blocks/faq/__answer/faq__answer.css);
+@import url(../blocks/faq/__answer/_opened/faq__answer_opened.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__heading/footer__heading.css);
+@import url(../blocks/footer/__subheading/footer__subheading.css);
+@import url(../blocks/footer/__author/footer__author.css);

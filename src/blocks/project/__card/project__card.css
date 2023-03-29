@@ -1,0 +1,43 @@
+.project__card {
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.project__card:first-child {
+  background-image: url(../../../images/1_WHITE_FLAT/1.jpg);
+}
+
+.project__card:nth-child(2) {
+  background-image: url(../../../images/2_WOOD&STONE/001.jpg);
+}
+
+.project__card:nth-child(3) {
+  background-image: url(../../../images/3_KERRANOVA_INSPIRATION/01.jpg);
+  background-size: auto 100%;
+}
+
+.project__card:nth-child(4) {
+  background-image: url(../../../images/4_PURE/01.jpg);
+}
+
+.project__card:nth-child(5) {
+  background-image: url(../../../images/5_GROWING_CHILDROOM/CROOM1.jpg);
+}
+
+.project__card:nth-child(6) {
+  background-image: url(../../../images/6_CIRCUM/1.jpg);
+}
+
+.project__card:nth-child(7) {
+  background-image: url(../../../images/7_MALEVICH_11/1.jpg);
+}
+
+.project__card:nth-child(8) {
+  background-image: url(../../../images/8_BLANCHE/1.jpg);
+}
+
+.project__card:nth-child(9) {
+  background-image: url(../../../images/9_other-photo/1.jpg);
+}

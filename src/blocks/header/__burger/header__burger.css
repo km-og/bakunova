@@ -1,0 +1,16 @@
+.header__burger {
+  width: 45px;
+  height: 5px;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+@media screen and (max-width: 767px) {
+  .header__burger {
+    width: 30px;
+    height: 3px;
+    margin-bottom: 5px;
+  }
+}

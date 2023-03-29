@@ -1,0 +1,9 @@
+.menu__item {
+  margin: 35px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .menu__item {
+    margin: 25px 0;
+  }
+}

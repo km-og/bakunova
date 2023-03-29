@@ -1,0 +1,35 @@
+.services__quote {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 50%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.4;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+  .services__quote {
+    font-size: 37px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .services__quote {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services__quote {
+    width: 100%;
+    max-width: 503px;
+    height: 50%;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+}

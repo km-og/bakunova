@@ -1,0 +1,22 @@
+.description__photo {
+  grid-area: photo;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  justify-self: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .description__photo {
+    min-width: 420px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description__photo {
+    min-width: 300px;
+    max-width: 410px;
+    justify-self: start;
+  }
+}

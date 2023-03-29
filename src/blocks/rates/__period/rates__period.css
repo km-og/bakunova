@@ -1,0 +1,14 @@
+.rates__period {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 40px 0 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .rates__period {
+    text-align: center;
+  }
+}
