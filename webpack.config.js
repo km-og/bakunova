@@ -48,4 +48,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
   ],
+  optimization: {
+    minimize: false, // Опция для отключения минификации
+  },
 };

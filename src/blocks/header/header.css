@@ -11,3 +11,9 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 767px) {
+  .header {
+    height: 90px;
+  }
+}

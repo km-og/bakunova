@@ -55,6 +55,7 @@
 
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/services/__subtitle/services__subtitle.css);
 @import url(../blocks/services/__content/services__content.css);
 @import url(../blocks/services/__quote/services__quote.css);
 

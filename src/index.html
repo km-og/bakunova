@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Inessa Kim">
   <!-- <link rel="stylesheet" href="./pages/index.css"> -->
-  <link rel="icon" href="./images/favicon.svg">
+  <link rel="icon" href="<%=require('./images/favicon.svg')%>">
   <title>BID Studio</title>
 </head>
 
@@ -82,6 +82,9 @@
           <div class="awards__gallery">
             <ul class="awards__list">
               <li class="awards__item">
+                <img src="<%=require('./images/awards/2023.jpg')%>" alt="Диплом участника" class="awards__img">
+              </li>
+              <li class="awards__item">
                 <img src="<%=require('./images/awards/1pinwin21-22.jpg')%>"
                   alt="Свидетельство о членстве в Сибирской ассоциации дизайнеров и архитекторов" class="awards__img">
               </li>
@@ -143,6 +146,34 @@
       <section class="project" id="project">
         <h2 class="project__title">Проекты</h2>
         <ul class="project__container">
+          <li class="project__card">
+            <a href="https://disk.yandex.ru/d/xGUoa5oXV-zHUQ" target="_blank" class="project__link link">
+              <div class="project__card-content">
+                <h3 class="project__card-heading">Scandi</h3>
+                <p class="project__card-description">Обволакивающая гамма Скандинавского стиля и лаконичные решения в
+                  проекте для небольшой семьи </p>
+              </div>
+            </a>
+          </li>
+          <li class="project__card">
+            <a href="https://disk.yandex.ru/d/n0L6id6B-i4PeA" target="_blank" class="project__link link">
+              <div class="project__card-content">
+                <h3 class="project__card-heading">Evropeysky Bereg</h3>
+                <p class="project__card-description">Смело, уютно, строго и сочно, а что еще нужно для студии на сдачу…
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="project__card">
+
+            <a href="https://disk.yandex.ru/d/nuo1ZAMfc9nOSw" target="_blank" class="project__link link">
+              <div class="project__card-content">
+                <h3 class="project__card-heading">Nobel</h3>
+                <p class="project__card-description">Бизнес-класс не только на фасаде, но и в интерьере. Строгость,
+                  выдержанность, монохром и немного метала в оттенке шампань как перчинка </p>
+              </div>
+            </a>
+          </li>
           <li class="project__card">
             <a href="https://disk.yandex.ru/d/ts_34qdrnPpOIA" target="_blank" class="project__link link">
               <div class="project__card-content">
@@ -221,14 +252,7 @@
               </div>
             </a>
           </li>
-          <li class="project__card">
-            <a href="https://disk.yandex.ru/d/64QOgxIKmG5OAA" target="_blank" class="project__link link">
-              <div class="project__card-content">
-                <h3 class="project__card-heading">Other photo</h3>
-                <!-- <p class="project__card-description"></p> -->
-              </div>
-            </a>
-          </li>
+
         </ul>
       </section>
 
@@ -243,7 +267,7 @@
           <div class="rates__card rates__card_mini">
             <div class="rates__box">
               <h4 class="rates__title">Планировочное решение</h4>
-              <p class="rates__price">500 Р/м<sup>2</sup></p>
+              <p class="rates__price">600 Р/м<sup>2</sup></p>
               <p class="rates__additional-text">Идеально подойдет тем, кто хочет максимально эффективно использовать
                 пространство
               </p>
@@ -269,15 +293,15 @@
               </ul>
               <button type="button" class="rates__btn button">Подробнее</button>
             </div>
-            <div class="rates__box">
-              <p class="rates__period">Срок 2 недели</p>
-              <!-- <button type="submit" class="rates__btn">Оставить заявку</button> -->
-            </div>
+            <!-- <div class="rates__box"> -->
+            <!-- <p class="rates__period">Срок 2 недели</p> -->
+            <!-- <button type="submit" class="rates__btn">Оставить заявку</button> -->
+            <!-- </div> -->
           </div>
           <div class="rates__card rates__card-standart">
             <div class="rates__box">
               <h4 class="rates__title">Планировочное решение + 3D</h4>
-              <p class="rates__price">1500 Р/м<sup>2</sup></p>
+              <p class="rates__price">1600 Р/м<sup>2</sup></p>
               <p class="rates__additional-text">Формат подойдет тем, кто хочет получить полное представление о
                 проектируемом пространстве в виде визуализаций, и готов самостоятельно заняться решением технических
                 вопросов, воплощением проекта в жизнь
@@ -307,14 +331,14 @@
               </ul>
               <button type="button" class="rates__btn button">Подробнее</button>
             </div>
-            <div class="rates__box">
-              <p class="rates__period">Срок 1-2 месяца</p>
-            </div>
+            <!-- <div class="rates__box"> -->
+            <!-- <p class="rates__period">Срок 1-2 месяца</p> -->
+            <!-- </div> -->
           </div>
           <div class="rates__card rates__card-full">
             <div class="rates__box">
               <h4 class="rates__title">Дизайн-проект</h4>
-              <p class="rates__price">2000 Р/м<sup>2</sup></p>
+              <p class="rates__price">2200 Р/м<sup>2</sup></p>
               <p class="rates__additional-text">Этот формат идеален для тех, кто не хочет тратить время на решение
                 технических вопросов и готов довериться строительной бригаде. Помимо альбома проекта с визуализациями вы
                 получите информацию по комплектации с подсчетом бюджета</p>
@@ -347,7 +371,7 @@
                   </p>
                 </li>
                 <li>
-                  <p class="rates__text">9.План обозначения групп включения
+                  <p class="rates__text">9. План обозначения групп включения
                   </p>
                 </li>
                 <li>
@@ -355,41 +379,41 @@
                   </p>
                 </li>
                 <li>
-                  <p class="rates__text">11.План пола
+                  <p class="rates__text">11. План пола
                   </p>
                 </li>
                 <li>
-                  <p class="rates__text">12.План теплого пола
+                  <p class="rates__text">12. План теплого пола
                   </p>
                 </li>
                 <li>
-                  <p class="rates__text">13.План потолка
+                  <p class="rates__text">13. План потолка
                   </p>
                 </li>
                 <li>
-                  <p class="rates__text">14.Развертки по помещениям
+                  <p class="rates__text">14. Развертки по помещениям
                   </p>
                 </li>
                 <li>
-                  <p class="rates__text">15.Визуализации
+                  <p class="rates__text">15. Визуализации
                   </p>
                 </li>
                 <li>
-                  <p class="rates__text">16.Комплектация и расчет бюджета
+                  <p class="rates__text">16. Комплектация и расчет бюджета
                   </p>
                 </li>
               </ul>
               <button type="button" class="rates__btn button">Подробнее</button>
             </div>
-            <div class="rates__box">
-              <p class="rates__period">Срок 2-4 месяца</p>
-            </div>
+            <!-- <div class="rates__box"> -->
+            <!-- <p class="rates__period">Срок 2-4 месяца</p> -->
+            <!-- </div> -->
           </div>
 
         </div>
       </section>
       <section class="services">
-        <h2 class="services__title">Дополнительные услуги</h2>
+        <h3 class="services__subtitle">Дополнительные услуги</h3>
 
         <div class="rates">
           <div class="rates__card">
@@ -397,7 +421,7 @@
               <h4 class="rates__title">Стилистическое решение</h4>
               <p class="rates__price">500 Р/м<sup>2</sup></p>
               <p class="rates__additional-text">Коллажи по помещениям станут ориентиром при выборе основных форм и
-                цветовых схем в интерьере, а так же получите информацию конкретным позициям с указанием стоимости
+                цветовых схем в интерьере, а так же получите информацию по конкретным позициям с указанием стоимости
               </p>
             </div>
 
@@ -405,7 +429,7 @@
           <div class="rates__card">
             <div class="rates__box">
               <h4 class="rates__title">Консультация</h4>
-              <p class="rates__price">3000 Р/м<sup>2</sup></p>
+              <p class="rates__price">3500 Р/ч</p>
               <p class="rates__additional-text">Будет полезна вам, если вы:</p>
               <ul class="rates__content rates__content_opened">
                 <!-- <li>
@@ -441,8 +465,8 @@
           </div>
           <div class="rates__card">
             <div class="rates__box">
-              <h4 class="rates__title">Авторский надзор</h4>
-              <p class="rates__price">12 000 Р/м<sup>2</sup></p>
+              <h4 class="rates__title">Сопровождение проекта</h4>
+              <p class="rates__price">15 000 Р/м<sup>2</sup></p>
               <p class="rates__additional-text">Сопровождение реализации в соответствии с проектом</p>
 
               <ul class="rates__content">
@@ -519,7 +543,7 @@
           </li>
         </ul> -->
 
-        <h3 class="structure__title">Состав проекта</h3>
+        <!-- <h3 class="structure__title">Состав проекта</h3>
         <ul class="structure__list">
           <div>
             <li>
@@ -591,20 +615,20 @@
               <p class="structure__text">15. <span class="structure__span">Визуализации. </span>3D-изображения
                 разработанные на основе стилистических и цветовых
                 предпочтений заказчика, а так же ТЗ.</p>
-            </li>
-            <!-- <li>
+            </li>-->
+        <!-- <li>
                 <p class="structure__text">16. <span class="structure__span">Комплектация. </span>Таблица с указанием
                   позиций, артикулов, количества, стоимости и общей
                   суммы затрат на проект.</p>
               </li> -->
-            <li>
+        <!--<li>
               <p class="structure__text">* Отдельно может быть предоставлена
                 строительная смета с учетом работы бригады.</p>
             </li>
           </div>
-        </ul>
+        </ul> -->
 
-        <h3 class="structure__title">Что входит в авторский надзор</h3>
+        <h3 class="structure__title">Что входит в сопровождение проекта</h3>
         <ul class="structure__table">
           <li>
             <p class="structure__text">
